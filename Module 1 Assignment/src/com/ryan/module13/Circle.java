@@ -15,8 +15,8 @@ public class Circle extends TwoDShape {
         return "Circle - radius: " + radius;
     }
 
-    public Circle(double inRadius){
-        radius = inRadius;
+    public Circle(double radius){
+        this.radius = radius;
     }
 
     public double getRadius(){

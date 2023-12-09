@@ -19,9 +19,9 @@ public class Circle extends TwoDShape {
                 + " - Colour: " + getColour();
     }
 
-    public Circle(double inRadius, Colour inColour){
+    public Circle(double radius, Colour inColour){
         super(inColour);
-        radius = inRadius;
+        this.radius = radius;
     }
 
     public double getRadius(){

@@ -12,10 +12,10 @@ public abstract class TwoDShape {
         width = 0;
     }
 
-    public TwoDShape(double inHeight, double inWidth, Colour inColour){
-        colour = inColour;
-        height = inHeight;
-        width = inWidth;
+    public TwoDShape(double height, double width, Colour colour){
+        this.colour = colour;
+        this.height = height;
+        this.width = width;
     }
 
     public abstract double getArea();

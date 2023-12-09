@@ -21,8 +21,8 @@ public class Triangle extends TwoDShape implements Rotate {
 
     }
 
-    public Triangle(double inSide1, double inSide2, double inSide3, Colour inColour){
-        super(inColour);
+    public Triangle(double inSide1, double inSide2, double inSide3, Colour colour){
+        super(colour);
         side1 = inSide1;
         side2 = inSide2;
         side3 = inSide3;
